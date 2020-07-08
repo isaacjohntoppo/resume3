@@ -103,3 +103,11 @@ p {
   background-image: linear-gradient(transparent calc(100% - var(--line-size)), var(--color-text) var(--line-size));
 }
 
+.wrapper{
+  display: none;
+
+}
+
+.wrapper1{
+  display: none;
+}

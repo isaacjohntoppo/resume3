@@ -316,6 +316,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding: 0;
   width: 90%;
   float: left;
+  
 }
 @media screen and (max-width: 768px) {
   .info {
@@ -805,10 +806,13 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-right: 50px;
 }
 
+
 .fh5co-blog {
   width: 100%;
   float: left;
   margin-bottom: 40px;
+  
+  
 }
 @media screen and (max-width: 768px) {
   .fh5co-blog {
@@ -1310,6 +1314,19 @@ input[type="text"] {
 
   }
 }
+
+
+
+.bgbg{
+  color: rgba(0, 0, 0, 0.13);
+  z-index: -1;
+  font-size: 70em;
+  position: absolute;
+  font-weight: bolder;
+  
+
+}
+
 
 
 /*# sourceMappingURL=style.css.map */

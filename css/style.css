@@ -306,6 +306,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-bg-dark {
   background: #2F3C4F;
   background: #FF9000;
+  z-index: -1;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -1327,6 +1328,41 @@ input[type="text"] {
 
 }
 
+.box1{
+  background-position-x: right;
+  width: 100em;
+	height: 30em;
+	transform: skew(20deg);
+  background: rgba(255, 217, 0, 0.267);
+  z-index: 1;
+  position: absolute;
+  transform: rotate(90dg);
+  border-top: #000;
+  left: 100em;
+}
 
+.box2{
+  width: 30em;
+  height: 29em;
+  position: absolute;
+  left: 80em;
+  background-image: url(https://webstockreview.net/images/astronaut-clipart-animation-15.gif);
+  border-radius: 50em;
+  top: 220em;
+
+
+}
+
+.box4{
+  width: 30em;
+  height: 30em;
+  position: absolute;
+ background-color: rgba(230, 65, 0, 0.404);
+ z-index: -1;
+ border-radius: 50%;
+ bottom:50% ;
+ right: 50%;
+
+}
 
 /*# sourceMappingURL=style.css.map */

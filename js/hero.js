@@ -36,3 +36,5 @@ async function erase() {
 };
 
 writingAll('item', 'data-text');
+
+

@@ -1302,7 +1302,7 @@ input[type="text"] {
   
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .high{
 
     position: relative;
@@ -1331,14 +1331,15 @@ input[type="text"] {
 .box1{
   background-position-x: right;
   width: 100em;
-	height: 30em;
-	transform: skew(20deg);
-  background: rgba(255, 217, 0, 0.267);
+	height: 90em;
+	transform: skew(60deg);
+  background: rgba(255, 217, 0, 0.164);
   z-index: 1;
   position: absolute;
   transform: rotate(90dg);
   border-top: #000;
-  left: 100em;
+  left: 130em;
+  top: 212em;
 }
 
 .box2{
@@ -1353,16 +1354,7 @@ input[type="text"] {
 
 }
 
-.box4{
-  width: 30em;
-  height: 30em;
-  position: absolute;
- background-color: rgba(230, 65, 0, 0.404);
- z-index: -1;
- border-radius: 50%;
- bottom:50% ;
- right: 50%;
 
-}
+
 
 /*# sourceMappingURL=style.css.map */

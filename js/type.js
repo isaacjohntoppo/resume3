@@ -21,3 +21,4 @@ mode.addEventListener("click", (e) =>
 highlight.addEventListener("change", (e) => setHighlightStyle(e.target.value));
 
 setHighlightStyle(highlight.value);
+
